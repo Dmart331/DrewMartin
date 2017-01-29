@@ -343,6 +343,11 @@ font header .navbar-default .navbar-nav li a:hover {
 #clients-logo-section .clients-logo-img {
   padding: 0px 50px;
 }
+
+.clients-logo-img img{
+  max-width: 200px;
+  max-height: 200px;
+}
 /*---------------------------------------------
 					Work Start 
 -----------------------------------------------*/
@@ -469,7 +474,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #portfolio-work .block .portfolio-contant ul li:hover .overly {
   opacity: 1;
-  padding-right: 10%;
+  padding-right: 15%;
   width:100%;
 }
 #portfolio-work .block .portfolio-contant ul li:hover .position-center {
@@ -477,6 +482,7 @@ font header .navbar-default .navbar-nav li a:hover {
   -moz-transform: translate(0%, -50%);
   -ms-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
+  padding-right: 15%;
 }
 #portfolio-work .block .portfolio-contant ul li a {
   display: block;
@@ -799,3 +805,5 @@ footer .footer-manu ul li a {
 footer .footer-manu ul li a:hover {
   color: #000;
 }
+
+

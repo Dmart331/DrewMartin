@@ -15,14 +15,14 @@ $(document).ready(function(){
 
 	$("#clients-logo").owlCarousel({
 		autoPlay: 3000,
-		items : 5,
+		items : 4,
 		itemsDesktop : [1199,5],
 		itemsDesktopSmall : [979,5],
 	});
 
 	$("#works-logo").owlCarousel({
 		autoPlay: 3000,
-		items : 5,
+		items : 4,
 		itemsDesktop : [1199,5],
 		itemsDesktopSmall : [979,5],
 	});
@@ -32,7 +32,7 @@ $(document).ready(function(){
 		var map;
 		function initMap() {
 		  map = new google.maps.Map(document.getElementById('map'), {
-		    center: {lat: -36.1627, lng: 86.7816},
+		    center: {lat: -36.1627, lng: 86.78},
 		    zoom: 8
 		  });
 		}
